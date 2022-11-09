@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Libre%20Baskerville&display=swap");
+@font-face {
+  font-family: "Lemon Tuesday";
+  src: url("Lemon-Tuesday.ttf") format("truetype");
+}
+body {
+  font-family: "Libre Baskerville" !important;
+}
+
+.bg-color {
+  background-color: #332B2A !important;
+}
+
+#brand {
+  font-family: "Lemon Tuesday" !important;
+  font-size: 2rem;
+  color: #F6F1EE !important;
+  text-shadow: 2px 2px #822708;
+}
+
+.navbar-item,
+.navbar-link {
+  background-image: linear-gradient(to right, #822708 0, #9D4D2A 22%, #AE5F40 45%, #D29175 50%, #AE5F40 55%, #9D4D2A 78%, #822708 100%) !important;
+  color: transparent !important;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 0.8rem;
+}
+.navbar-item:hover,
+.navbar-link:hover {
+  background-clip: unset;
+  -webkit-background-clip: unset;
+  background: #332B2A !important;
+  color: #F6F1EE !important;
+}
+
+.button:hover {
+  background-image: linear-gradient(to right, #822708 0, #9D4D2A 22%, #AE5F40 45%, #D29175 50%, #AE5F40 55%, #9D4D2A 78%, #822708 100%) !important;
+}/*# sourceMappingURL=index.css.map */
